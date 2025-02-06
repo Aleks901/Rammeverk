@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HIOF.V2025.BookApp.BookStore/1.0.0": {
+        "runtime": {
+          "HIOF.V2025.BookApp.BookStore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HIOF.V2025.BookApp.BookStore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HIOF.V2025.BookApp.BookCLI/1.0.0": {
+        "dependencies": {
+          "HIOF.V2025.BookApp.BookStore": "1.0.0"
+        },
+        "runtime": {
+          "HIOF.V2025.BookApp.BookCLI.dll": {}
+        }
+      },
+      "HIOF.V2025.BookApp.BookStore/1.0.0": {
+        "runtime": {
+          "HIOF.V2025.BookApp.BookStore.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HIOF.V2025.BookApp.BookCLI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HIOF.V2025.BookApp.BookStore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
