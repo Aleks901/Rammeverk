@@ -9,3 +9,15 @@ C:\Users\aleks\Desktop\dotnet\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore\ob
 C:\Users\aleks\Desktop\dotnet\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore\obj\Debug\net8.0\refint\HIOF.V2025.BookApp.BookStore.dll
 C:\Users\aleks\Desktop\dotnet\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore\obj\Debug\net8.0\HIOF.V2025.BookApp.BookStore.pdb
 C:\Users\aleks\Desktop\dotnet\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore\obj\Debug\net8.0\ref\HIOF.V2025.BookApp.BookStore.dll
+C:\Users\aleks\Desktop\Rammeverkdotnet obliger\Rammeverk\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore\bin\Debug\net8.0\HIOF.V2025.BookApp.BookStore.deps.json
+C:\Users\aleks\Desktop\Rammeverkdotnet obliger\Rammeverk\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore\bin\Debug\net8.0\HIOF.V2025.BookApp.BookStore.dll
+C:\Users\aleks\Desktop\Rammeverkdotnet obliger\Rammeverk\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore\bin\Debug\net8.0\HIOF.V2025.BookApp.BookStore.pdb
+C:\Users\aleks\Desktop\Rammeverkdotnet obliger\Rammeverk\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore\obj\Debug\net8.0\HIOF.V2025.BookApp.BookStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\Desktop\Rammeverkdotnet obliger\Rammeverk\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore\obj\Debug\net8.0\HIOF.V2025.BookApp.BookStore.AssemblyInfoInputs.cache
+C:\Users\aleks\Desktop\Rammeverkdotnet obliger\Rammeverk\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore\obj\Debug\net8.0\HIOF.V2025.BookApp.BookStore.AssemblyInfo.cs
+C:\Users\aleks\Desktop\Rammeverkdotnet obliger\Rammeverk\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore\obj\Debug\net8.0\HIOF.V2025.BookApp.BookStore.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Desktop\Rammeverkdotnet obliger\Rammeverk\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore\obj\Debug\net8.0\HIOF.V2025.BookApp.BookStore.sourcelink.json
+C:\Users\aleks\Desktop\Rammeverkdotnet obliger\Rammeverk\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore\obj\Debug\net8.0\HIOF.V2025.BookApp.BookStore.dll
+C:\Users\aleks\Desktop\Rammeverkdotnet obliger\Rammeverk\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore\obj\Debug\net8.0\refint\HIOF.V2025.BookApp.BookStore.dll
+C:\Users\aleks\Desktop\Rammeverkdotnet obliger\Rammeverk\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore\obj\Debug\net8.0\HIOF.V2025.BookApp.BookStore.pdb
+C:\Users\aleks\Desktop\Rammeverkdotnet obliger\Rammeverk\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore\obj\Debug\net8.0\ref\HIOF.V2025.BookApp.BookStore.dll

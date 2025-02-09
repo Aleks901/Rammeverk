@@ -8,33 +8,33 @@
 /// BookGenre: Immutable, kommer aldri til å endres. Enum class Genre.
 /// Price: Mutable, kan endres ved behov. (F.eks discounts eller sales.)
 /// </summary>
-public class Book
+public sealed class Book
 {   
-    
-    public string Title { get; }
+
+    public string BookTitle { get; }
   
     public string AuthorName { get; }
  
     public Genre BookGenre { get; }
 
-    public string ISBN {  get; }
+    public string ISBN { get; }
 
     public decimal Price { get; private set; }
     
+    /// <summary>
+    /// Konstruktøren til Book klassen.
+    /// </summary>
+    /// <param name="title"></param>
+    /// <param name="authorName"></param>
+    /// <param name="isbn"></param>
+    /// <param name="price"></param>
+    /// <param name="genre"></param>
     public Book(string title, string authorName, string isbn, decimal price, Genre genre)
     {
-        Title = title;
+        BookTitle = title;
         AuthorName = authorName;
         ISBN = isbn;
         Price = price;
         BookGenre = genre;
-    }
-
-    public void PrintInfo() 
-    {
-        Console.WriteLine($"Title: {Title}");
-        Console.WriteLine($"Author: {AuthorName}");
-        Console.WriteLine($"Genre: {BookGenre}");
-        Console.WriteLine($"Price: {Price}");
     }
 }

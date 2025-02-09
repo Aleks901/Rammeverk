@@ -1,20 +1,47 @@
 ﻿namespace HIOF.V2025.BookApp.BookStore;
 
-public class Customer
+public sealed class Customer
 {
-    public string CustomerId { get; set; }
+    /// <summary>
+    /// Kunde Id nødvendig for database. Immutable.
+    /// </summary>
+    public int CustomerId { get; }
 
-    public string CustomerName { get; set; }
+    /// <summary>
+    /// Kunde navn nødvendig for shipping. Immutable.
+    /// </summary>
+    public string CustomerName { get; }
 
-    public string CustomerEmail { get; set; }
+    /// <summary>
+    /// Kunde Email nødvendig for tilsending av informasjon. Immutable.
+    /// </summary>
+    public string CustomerEmail { get; }
 
-    public string CustomerPhone { get; set; }
+    /// <summary>
+    /// Kunde telefon nummer nødvendig for tilsending av informasjon. Immutable.
+    /// </summary>
+    public string CustomerPhone { get; }
 
-    public string CustomerAddress { get; set; }
+    /// <summary>
+    /// Kunde adresse nødvendig for shipping. Immutable.
+    /// </summary>
+    public string CustomerAddress { get; }
 
-    public string CustomerPostalCode { get; set; }
+    /// <summary>
+    /// Kunde postnummer nødvendig for shipping. Immutable.
+    /// </summary>
+    public string CustomerPostalCode { get; }
 
-    public Customer(string customerId, string customerName, string customerEmail, string customerPhone, string customerAddress, string customerPostalCode) 
+    /// <summary>
+    /// Konstruktør for customer.
+    /// </summary>
+    /// <param name="customerId"></param>
+    /// <param name="customerName"></param>
+    /// <param name="customerEmail"></param>
+    /// <param name="customerPhone"></param>
+    /// <param name="customerAddress"></param>
+    /// <param name="customerPostalCode"></param>
+    public Customer(int customerId, string customerName, string customerEmail, string customerPhone, string customerAddress, string customerPostalCode) 
     {
         CustomerId = customerId;
         CustomerName = customerName;
