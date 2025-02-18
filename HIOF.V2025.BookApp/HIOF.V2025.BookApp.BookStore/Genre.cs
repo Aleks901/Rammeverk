@@ -10,5 +10,6 @@ public enum Genre
     Mystery,
     Fantasy,
     ScienceFiction,
-    Biography
+    Biography,
+    None = 0
 }

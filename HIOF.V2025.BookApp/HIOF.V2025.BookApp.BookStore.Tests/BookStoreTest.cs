@@ -25,7 +25,7 @@ public class BookStoreTest
         // Act
         testBookStore.AddBook(testBook);
         // Assert
-        Assert.AreEqual(testBook, testBookStore.inventory[0], "Book exists in list after being added");
+        Assert.AreEqual(testBook, testBookStore.Inventory[0], "Book exists in list after being added");
     }
 
     /// <summary>
@@ -102,7 +102,7 @@ public class BookStoreTest
         testBookStore.PurchaseBook("1234-5678", testCustomer);
 
         // Assert
-        Assert.AreEqual(testCustomer, testBookStore.customers[0]);
+        Assert.AreEqual(testCustomer, testBookStore.Customers[0]);
     }
 
     /// <summary>

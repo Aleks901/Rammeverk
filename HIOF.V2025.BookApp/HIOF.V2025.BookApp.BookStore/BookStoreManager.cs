@@ -1,17 +1,21 @@
-﻿namespace HIOF.V2025.BookApp.BookStore;
+﻿using System.Collections.ObjectModel;
+
+namespace HIOF.V2025.BookApp.BookStore;
 
 
 public sealed class BookStoreManager
 {
     /// <summary>
-    /// Liste over tilgjengelige bøker i bok butikken.
+    /// Samling over tilgjengelige bøker i bok butikken.
+    /// <returns>Inventory: Collection</returns>
     /// </summary>
-    public List<Book> inventory { get; } = new List<Book>();
+    public Collection<Book> Inventory { get; } = new Collection<Book>();
 
     /// <summary>
-    /// Liste over kunder som har fullført kjøp i bok butikken.
+    /// Samling over kunder som har fullført kjøp i bok butikken.
+    /// <returns>Customers: Collection</returns>
     /// </summary>
-    public List<Customer> customers { get; } = new List<Customer>();
+    public Collection<Customer> Customers { get; } = new Collection<Customer>();
 
     /// <summary>
     /// Legger til en bok i inventory om detaljene er fullstendig.
@@ -23,10 +27,10 @@ public sealed class BookStoreManager
         if (book == null) throw new ArgumentNullException(nameof(book));
         if (string.IsNullOrWhiteSpace(book.ISBN) || string.IsNullOrWhiteSpace(book.BookTitle) || string.IsNullOrWhiteSpace(book.AuthorName))
         {
-            throw new ArgumentNullException(nameof(book), "Book details must be complete");
+            throw new ArgumentNullException(nameof(book), "Book details must be complete.");
         }
 
-        inventory.Add(book);
+        Inventory.Add(book);
     }
 
     /// <summary>
@@ -34,14 +38,14 @@ public sealed class BookStoreManager
     /// Dersom boka eksisterer returneres den for videre bruk.
     /// </summary>
     /// <param name="titleOrIsbn">Boktittel eller ISBN</param>
-    /// <returns>Boka hvis den finnes</returns>
+    /// <returns>Book object</returns>
     /// <exception cref="ArgumentNullException">Kastes hvis parameteren er null eller tom</exception>
     /// <exception cref="InvalidOperationException">Kastes hvis boken ikke finnes</exception>
     public Book FindBook(string titleOrIsbn)
     {
         if (string.IsNullOrWhiteSpace(titleOrIsbn)) throw new ArgumentNullException(nameof(titleOrIsbn));
 
-        foreach (var book in inventory)
+        foreach (var book in Inventory)
         {
             if (book.ISBN == titleOrIsbn || book.BookTitle == titleOrIsbn)
             {
@@ -65,9 +69,9 @@ public sealed class BookStoreManager
         if (string.IsNullOrWhiteSpace(isbn)) throw new ArgumentNullException(nameof(isbn));
         if (customer == null) throw new ArgumentNullException(nameof(customer));
 
-        var book = inventory.FirstOrDefault(b => b.ISBN == isbn)
+        var book = Inventory.FirstOrDefault(b => b.ISBN == isbn)
             ?? throw new InvalidOperationException("Book does not exist in inventory");
 
-        customers.Add(customer);
+        Customers.Add(customer);
     }
 }
