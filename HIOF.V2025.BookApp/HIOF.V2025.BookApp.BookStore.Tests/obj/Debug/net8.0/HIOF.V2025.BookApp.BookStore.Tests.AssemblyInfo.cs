@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HIOF.V2025.BookApp.BookStore.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c09e25a7d50d2f29769b243c840580cdfa7b027")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+563ce9b3ff116e7ad21e728fd8b92a8e80324a02")]
 [assembly: System.Reflection.AssemblyProductAttribute("HIOF.V2025.BookApp.BookStore.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HIOF.V2025.BookApp.BookStore.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

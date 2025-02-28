@@ -195,4 +195,37 @@ public class BookStoreTest
 
     }
 
+    /// <summary>
+    /// Denne testen er den totale testen av systemet arbeidskravet ønsket.
+    /// Dette er altså en stegvis historie på hvordan det fungerer i prinsippet.
+    /// </summary>
+    [TestMethod]
+    public void TotalProcess_TestForAssignment_CompleteProcessStepByStep() 
+    {
+        // Arrange
+
+        // Butikken åpnes
+        var testBookStore = new BookStoreManager();
+
+        // En kunde registrerer profil hos nettbutikken til forhandler.
+        var testCustomer = new Customer(1, "Aleks", "aleksj@hiof.no", "+4712345678", "B R A Veien 6c", "1793 Halden", Membership.Diamond);
+
+        // En ny bok legges til i butikken
+        var testBook = new Book("LOTR", "Tolkien", "1234-5678", 100, Genre.Fantasy, BookType.HardCover);
+        testBookStore.AddBook(testBook);
+
+        // Act & Assert
+
+        // Kunden finner boka han har lyst på etter et raskt søk på bok tittel.
+        Assert.IsTrue("LOTR" == testBookStore.FindBook("LOTR").BookTitle);
+
+        // Kunden får boka de ser etter etter kjøp til korrekt pris basert på medlemskap (-30 kr på orginal pris).
+        Assert.IsTrue((testBookStore.PurchaseBook("1234-5678", testCustomer)).Price == 70);
+
+        // Kunden er lagt til i butikkens systemer etter fullført kjøp og prosesseres videre for shipping.
+        Assert.AreEqual(testCustomer, testBookStore.Customers[0]);
+
+        // Ferdig.
+    }
+
 }
