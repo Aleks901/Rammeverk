@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\HIOF.V2025.BookApp.BookStore",
-    "\\HIOF.V2025.BookApp.BookStore.Tests"
+    ""
   ],
-  "SelectedNode": "\\HIOF.V2025.BookApp.BookStore\\Book.cs",
+  "SelectedNode": "\\HIOF.V2025.BookApp.sln",
   "PreviewInSolutionExplorer": false
 }

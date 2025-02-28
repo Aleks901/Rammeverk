@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace HIOF.V2025.BookApp.BookStore
 {
-    internal struct BookDiscount
+    public  enum BookType
     {
-        public double FiftyPercentOff = 50.0;
-
-
-        public BookDiscount()
-        {
-        }
+        None = 0,
+        HardCover,
+        Digital
     }
 }

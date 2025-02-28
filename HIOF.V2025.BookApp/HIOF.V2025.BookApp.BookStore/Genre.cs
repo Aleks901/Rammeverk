@@ -5,11 +5,11 @@
 /// </summary>
 public enum Genre 
 {
+    None = 0,
     Fiction,
     NonFiction,
     Mystery,
     Fantasy,
     ScienceFiction,
-    Biography,
-    None = 0
+    Biography
 }

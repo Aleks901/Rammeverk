@@ -20,7 +20,7 @@ public class BookStoreTest
     public void AddBook_ValidBook_IncreasesInventory()
     {
         // Arrange
-        var testBook = new Book("Not important", "Especially not important", "934-32-Not-important", 49, Genre.Biography);
+        var testBook = new Book("Not important", "Especially not important", "934-32-Not-important", 49, Genre.Biography, BookType.Digital);
         var testBookStore = new BookStoreManager();
         // Act
         testBookStore.AddBook(testBook);
@@ -36,7 +36,7 @@ public class BookStoreTest
     public void AddBook_BookParameteresNull_ThrowsException() 
     {
         // Arrange
-        var testBook = new Book(null, null, null, 0, Genre.Mystery);
+        var testBook = new Book(null, null, null, 0, Genre.Mystery, BookType.Digital);
         var testBookStore = new BookStoreManager();
 
         // Act & Assert
@@ -55,14 +55,14 @@ public class BookStoreTest
     public void FindBookByIsbnOrTitle_ExistingTitleorISBN_ReturnsBook() 
     {
         // Arrange
-        var book3 = new Book("ABC", "Not important", "934-32-12-748", 50, Genre.Mystery);
+        var book3 = new Book("ABC", "Not important", "934-32-12-748", 50, Genre.Mystery, BookType.Digital);
         var testBookStore = new BookStoreManager();
 
         // Act
         testBookStore.AddBook(book3);
 
         // Assert
-        Assert.IsTrue("ABC" == testBookStore.FindBook("ABC").BookTitle && "934-32-12-748" == testBookStore.FindBook("934-32-12-748").ISBN);
+        Assert.IsTrue("ABC" == testBookStore.FindBook("ABC").BookTitle && "934-32-12-748" == testBookStore.FindBook("934-32-12-748").Isbn);
     }
 
     /// <summary>
@@ -92,9 +92,9 @@ public class BookStoreTest
     {
 
         // Arrange
-        var testCustomer = new Customer(1, "Aleks", "aleksj@hiof.no", "+4712345678", "B R A Veien 6c", "1793 Halden");
+        var testCustomer = new Customer(1, "Aleks", "aleksj@hiof.no", "+4712345678", "B R A Veien 6c", "1793 Halden", Membership.None);
         var testBookStore = new BookStoreManager();
-        var testBook = new Book("LOTR", "Tolkien", "1234-5678", 100, Genre.Fantasy);
+        var testBook = new Book("LOTR", "Tolkien", "1234-5678", 100, Genre.Fantasy, BookType.Digital);
        
 
         // Act
@@ -112,7 +112,7 @@ public class BookStoreTest
     public void PurchaseBook_NonExistingBook_ThrowsException()
     {
         // Arrange
-        var testCustomer = new Customer(2, "Ola Nordmann", "ola@hiof.no", "+4798765432", "Testveien 1", "1793 Halden");
+        var testCustomer = new Customer(2, "Ola Nordmann", "ola@hiof.no", "+4798765432", "Testveien 1", "1793 Halden", Membership.None);
         var testBookStore = new BookStoreManager();
 
         // Act & Assert
@@ -120,6 +120,43 @@ public class BookStoreTest
         {
             testBookStore.PurchaseBook("9999-8888", testCustomer);
         });
+    }
+
+    [TestMethod]
+    public void ApplyDiscount_DiscountApplied_ReturnsNewPriceOfProduct() 
+    {
+        // Arrange
+        var testKupong = new Discount(100);
+        var testBook = new Book("SomeBook", "SomeAuthor", "SomeIsbn", 100, Genre.Biography, BookType.Digital);
+
+        // Act
+        testBook.ApplyDiscount(testKupong);
+
+        // Assert
+        Assert.IsTrue(testBook.Price == 0);
+
+        
+    }
+
+    /// <summary>
+    /// Denne metoden tester 2 ting, først at dersom kupongen ble produsert med en verdi <= 0 så skulle den kaste en exception. 
+    /// Deretter sjekker den at den negative prisen også IKKE ble lagt til produktet. Dette er bare et ekstra steg for sikkerhetsskyld.
+    /// </summary>
+    [TestMethod]
+    public void ApplyDiscount_DiscountNotApplied_ThrowsOutOfRangeException() 
+    {
+        // Arrange
+        var testBook = new Book("SomeBook", "SomeAuthor", "SomeIsbn", 100, Genre.Biography, BookType.Digital);
+
+        // Act & Assert
+        Assert.ThrowsException<ArgumentOutOfRangeException>(() =>
+        {
+            var testKupong = new Discount(-100);
+            testBook.ApplyDiscount(testKupong);
+        });
+
+        // Assert #2
+        Assert.IsTrue(testBook.Price == 100);
     }
 
 }

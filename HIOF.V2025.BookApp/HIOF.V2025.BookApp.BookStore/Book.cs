@@ -1,38 +1,46 @@
 ﻿namespace HIOF.V2025.BookApp.BookStore;
 
-
-public sealed class Book
+/// <summary>
+/// Et bok produkt.
+/// </summary>
+public sealed class Book : IDiscountable
 {
     /// <summary>
     /// Bok tittel. Immutable, kommer aldri til å endres.
-    /// <returns>Book</returns>
+    /// <value>Book</value>
     /// </summary>
     public string BookTitle { get; }
 
     /// <summary>
     /// Navnet til forfattereren, Immutable, kommer aldri til å endres.
-    /// <returns>AuthorName: string</returns>
+    /// <value>AuthorName: string</value>
     /// </summary>
     public string AuthorName { get; }
 
     /// <summary>
-    /// Bok sjanger. Immutable, kommer aldri til å endres. Enum class Genre.
-    /// <returns>BookGenre: Enum Genre </returns>
+    /// Personlig identifikator for en spesifikk bok, immutable, kommer aldri til å endres.
+    /// <value>Isbn: string</value>
+    /// </summary>
+    public string Isbn { get; }
+
+    /// <summary>
+    /// Prisen på boken, Mutable, kan endres ved behov. (F.eks discounts eller sales.)
+    /// <value>Price: decimal</value>
+    /// </summary>
+    public decimal Price { get; private set; }
+
+    /// <summary>
+    /// Bok sjanger. Immutable, kommer aldri til å endres.
+    /// <value>BookGenre: Enum Genre</value>
     /// </summary>
     public Genre BookGenre { get; }
 
     /// <summary>
-    /// Personlig identifikator for en spesifikk bok, immutable, kommer aldri til å endres.
-    /// <returns>ISBN: string</returns>
+    /// Bok type. (Digital / Hardcover) Immutable.
+    /// <value>BookType: Enum</value>
     /// </summary>
-    public string ISBN { get; }
+    public BookType BookType { get; }
 
-    /// <summary>
-    /// Prisen på boken, Mutable, kan endres ved behov. (F.eks discounts eller sales.)
-    /// <returns>Price: decimal</returns>
-    /// </summary>
-    public decimal Price { get; private set; }
-    
     /// <summary>
     /// Konstruktøren til Book klassen. Inkluderer alle egenskaper fra klassen for å lage en komplett bok.
     /// </summary>
@@ -41,12 +49,22 @@ public sealed class Book
     /// <param name="isbn">Personlig identifikator til en bok</param>
     /// <param name="price">Prisen til boken</param>
     /// <param name="genre">Sjangeren til boken</param>
-    public Book(string title, string authorName, string isbn, decimal price, Genre genre)
+    public Book(string title, string authorName, string isbn, decimal price, Genre genre, BookType bookType)
     {
         BookTitle = title;
         AuthorName = authorName;
-        ISBN = isbn;
+        Isbn = isbn;
         Price = price;
         BookGenre = genre;
+        BookType = bookType;
+    }
+
+    /// <summary>
+    /// Bruker en discount på boka og oppdaterer prisen.
+    /// </summary>
+    /// <param name="discount">Rabatten som skal trekkes fra prisen.</param>
+    public void ApplyDiscount(Discount discount)
+    {
+        Price = discount.ApplyDiscount(Price);
     }
 }

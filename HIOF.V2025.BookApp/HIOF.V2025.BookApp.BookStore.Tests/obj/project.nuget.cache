@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Io68lA7NAxI=",
+  "dgSpecHash": "q5e1LgCEidQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aleks\\Desktop\\Rammeverkdotnet obliger\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore.Tests\\HIOF.V2025.BookApp.BookStore.Tests.csproj",
+  "projectFilePath": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore.Tests\\HIOF.V2025.BookApp.BookStore.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aleks\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "C:\\Users\\aleks\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",

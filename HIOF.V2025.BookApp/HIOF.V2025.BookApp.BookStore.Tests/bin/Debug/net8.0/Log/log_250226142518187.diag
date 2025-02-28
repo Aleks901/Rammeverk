@@ -1,0 +1,15 @@
+2025-02-26T14:25:18.1916794+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.5.3+2a34431d753f39463aadf19674237f6c4e5b6865
+2025-02-26T14:25:18.1997827+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-02-26T14:25:18.2006677+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-02-26T14:25:18.2006706+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 14:25:18.173
+2025-02-26T14:25:18.2017469+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 456484
+2025-02-26T14:25:18.2018251+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.12
+2025-02-26T14:25:18.2018325+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.12\System.Private.CoreLib.dll
+2025-02-26T14:25:18.2018374+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-02-26T14:25:18.2018389+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\aleks\repos\Rammeverk\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore.Tests\bin\Debug\net8.0\HIOF.V2025.BookApp.BookStore.Tests.dll
+2025-02-26T14:25:18.2019755+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\aleks\repos\Rammeverk\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore.Tests\bin\Debug\net8.0\Log --results-directory C:\Users\aleks\repos\Rammeverk\HIOF.V2025.BookApp\TestResults --client-port 62820'
+2025-02-26T14:25:18.2028997+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-02-26T14:25:18.2204444+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-02-26T14:25:18.2301991+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable:  VSTest mode: False
+2025-02-26T14:25:18.3364552+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.7.3' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-02-26T14:25:18.4035205+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter INFORMATION Test Parallelization enabled for C:\Users\aleks\repos\Rammeverk\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore.Tests\bin\Debug\net8.0\HIOF.V2025.BookApp.BookStore.Tests.dll (Workers: 12, Scope: MethodLevel)
