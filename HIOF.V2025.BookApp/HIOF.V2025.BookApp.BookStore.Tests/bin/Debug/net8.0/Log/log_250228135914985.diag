@@ -1,0 +1,15 @@
+2025-02-28T13:59:14.9949250+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.5.3+2a34431d753f39463aadf19674237f6c4e5b6865
+2025-02-28T13:59:15.0128185+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-02-28T13:59:15.0148908+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-02-28T13:59:15.0148981+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 13:59:14.958
+2025-02-28T13:59:15.0172983+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 20936
+2025-02-28T13:59:15.0174845+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.11
+2025-02-28T13:59:15.0174995+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Private.CoreLib.dll
+2025-02-28T13:59:15.0175103+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-02-28T13:59:15.0175188+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\aleks\Desktop\Rammeverkdotnet obliger\Rammeverk\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore.Tests\bin\Debug\net8.0\HIOF.V2025.BookApp.BookStore.Tests.dll
+2025-02-28T13:59:15.0178119+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\aleks\Desktop\Rammeverkdotnet obliger\Rammeverk\HIOF.V2025.BookApp\HIOF.V2025.BookApp.BookStore.Tests\bin\Debug\net8.0\Log --results-directory C:\Users\aleks\Desktop\Rammeverkdotnet obliger\Rammeverk\HIOF.V2025.BookApp\TestResults --client-port 49921'
+2025-02-28T13:59:15.0199091+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-02-28T13:59:15.0557886+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-02-28T13:59:15.0755333+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable:  VSTest mode: False
+2025-02-28T13:59:15.3074617+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.7.3' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-02-28T13:59:15.3213473+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter WARNING Runsettings attribute 'MaxCpuCount' is not supported by Microsoft.Testing.Platform and will be ignored

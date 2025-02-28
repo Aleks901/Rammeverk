@@ -72,7 +72,8 @@ public sealed class BookStoreManager
     /// <param name="customer">Kunden som kjøper boken.</param>
     /// <exception cref="ArgumentNullException">Kastes hvis ISBN eller kunde er null.</exception>
     /// <exception cref="InvalidOperationException">Kastes hvis boken ikke finnes.</exception>
-    public void PurchaseBook(string isbn, Customer customer)
+    /// <returns>Book Objekt med applied discount</returns>
+    public Book PurchaseBook(string isbn, Customer customer)
     {
         if (string.IsNullOrWhiteSpace(isbn)) throw new ArgumentNullException(nameof(isbn));
         if (customer == null) throw new ArgumentNullException(nameof(customer));
@@ -88,5 +89,6 @@ public sealed class BookStoreManager
         }
 
         _customers.Add(customer);
+        return book;
     }
 }

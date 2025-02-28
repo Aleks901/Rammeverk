@@ -122,6 +122,9 @@ public class BookStoreTest
         });
     }
 
+    /// <summary>
+    /// Tester om rabbatert pris returneres etter bruk av ApplyDiscount metode.
+    /// </summary>
     [TestMethod]
     public void ApplyDiscount_DiscountApplied_ReturnsNewPriceOfProduct() 
     {
@@ -157,6 +160,39 @@ public class BookStoreTest
 
         // Assert #2
         Assert.IsTrue(testBook.Price == 100);
+    }
+
+    /// <summary>
+    /// Tester om medlemskap rabatt blir puttet på kjøpt produkt.
+    /// </summary>
+    [TestMethod]
+    public void GetDiscountForMembership_ValidMembershipDiscount_MembershipDiscountApplied() 
+    {
+        // Arrange
+        var testCustomer = new Customer(2, "Ola Nordmann", "ola@hiof.no", "+4798765432", "Testveien 1", "1793 Halden", Membership.Diamond);
+        var testBook = new Book("SomeBook", "SomeAuthor", "SomeIsbn", 100, Genre.Biography, BookType.Digital);
+        var testBookStore = new BookStoreManager();
+        testBookStore.AddBook(testBook);
+
+        // Act & Assert
+        Assert.IsTrue((testBookStore.PurchaseBook("SomeIsbn", testCustomer)).Price == 70);
+    }
+
+    /// <summary>
+    /// Tester et tilfelle hvor kunden ikke er medlem, og dermed at rabatt ikke blir puttet på det returnerte produktet.
+    /// </summary>
+    [TestMethod]
+    public void GetDiscountForMembership_InvalidMembershipDiscount_MembershipDiscountNotApplied() 
+    {
+        // Arrange
+        var testCustomer = new Customer(2, "Ola Nordmann", "ola@hiof.no", "+4798765432", "Testveien 1", "1793 Halden", Membership.None);
+        var testBook = new Book("SomeBook", "SomeAuthor", "SomeIsbn", 100, Genre.Biography, BookType.Digital);
+        var testBookStore = new BookStoreManager();
+        testBookStore.AddBook(testBook);
+
+        // Act & Assert
+        Assert.IsTrue((testBookStore.PurchaseBook("SomeIsbn", testCustomer)).Price == 100);
+
     }
 
 }

@@ -1,42 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\",
+  "WorkspaceRootPath": "C:\\Users\\aleks\\Desktop\\Rammeverkdotnet obliger\\Rammeverk\\HIOF.V2025.BookApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09B79F4E-9ACC-4656-BDA4-A94C0AEF25A6}|HIOF.V2025.BookApp.BookStore.Tests\\HIOF.V2025.BookApp.BookStore.Tests.csproj|c:\\users\\aleks\\repos\\rammeverk\\hiof.v2025.bookapp\\hiof.v2025.bookapp.bookstore.tests\\bookstoretest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09B79F4E-9ACC-4656-BDA4-A94C0AEF25A6}|HIOF.V2025.BookApp.BookStore.Tests\\HIOF.V2025.BookApp.BookStore.Tests.csproj|c:\\users\\aleks\\desktop\\rammeverkdotnet obliger\\rammeverk\\hiof.v2025.bookapp\\hiof.v2025.bookapp.bookstore.tests\\bookstoretest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09B79F4E-9ACC-4656-BDA4-A94C0AEF25A6}|HIOF.V2025.BookApp.BookStore.Tests\\HIOF.V2025.BookApp.BookStore.Tests.csproj|solutionrelative:hiof.v2025.bookapp.bookstore.tests\\bookstoretest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|c:\\users\\aleks\\repos\\rammeverk\\hiof.v2025.bookapp\\hiof.v2025.bookapp.bookstore\\booktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|solutionrelative:hiof.v2025.bookapp.bookstore\\booktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|c:\\users\\aleks\\repos\\rammeverk\\hiof.v2025.bookapp\\hiof.v2025.bookapp.bookstore\\idiscountable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|solutionrelative:hiof.v2025.bookapp.bookstore\\idiscountable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|c:\\users\\aleks\\repos\\rammeverk\\hiof.v2025.bookapp\\hiof.v2025.bookapp.bookstore\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|c:\\users\\aleks\\desktop\\rammeverkdotnet obliger\\rammeverk\\hiof.v2025.bookapp\\hiof.v2025.bookapp.bookstore\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|solutionrelative:hiof.v2025.bookapp.bookstore\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|c:\\users\\aleks\\repos\\rammeverk\\hiof.v2025.bookapp\\hiof.v2025.bookapp.bookstore\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|solutionrelative:hiof.v2025.bookapp.bookstore\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|c:\\users\\aleks\\repos\\rammeverk\\hiof.v2025.bookapp\\hiof.v2025.bookapp.bookstore\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|solutionrelative:hiof.v2025.bookapp.bookstore\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|c:\\users\\aleks\\repos\\rammeverk\\hiof.v2025.bookapp\\hiof.v2025.bookapp.bookstore\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|solutionrelative:hiof.v2025.bookapp.bookstore\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|c:\\users\\aleks\\repos\\rammeverk\\hiof.v2025.bookapp\\hiof.v2025.bookapp.bookstore\\bookstoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|c:\\users\\aleks\\desktop\\rammeverkdotnet obliger\\rammeverk\\hiof.v2025.bookapp\\hiof.v2025.bookapp.bookstore\\bookstoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|solutionrelative:hiof.v2025.bookapp.bookstore\\bookstoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|c:\\users\\aleks\\repos\\rammeverk\\hiof.v2025.bookapp\\hiof.v2025.bookapp.bookstore\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|c:\\users\\aleks\\desktop\\rammeverkdotnet obliger\\rammeverk\\hiof.v2025.bookapp\\hiof.v2025.bookapp.bookstore\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|solutionrelative:hiof.v2025.bookapp.bookstore\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|c:\\users\\aleks\\desktop\\rammeverkdotnet obliger\\rammeverk\\hiof.v2025.bookapp\\hiof.v2025.bookapp.bookstore\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|solutionrelative:hiof.v2025.bookapp.bookstore\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\BookDiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|c:\\users\\aleks\\desktop\\rammeverkdotnet obliger\\rammeverk\\hiof.v2025.bookapp\\hiof.v2025.bookapp.bookstore\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A13F748-09CA-46E5-A1AA-10D2B0312773}|HIOF.V2025.BookApp.BookStore\\HIOF.V2025.BookApp.BookStore.csproj|solutionrelative:hiof.v2025.bookapp.bookstore\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,125 +37,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BookStoreManager.cs",
-              "DocumentMoniker": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\BookStoreManager.cs",
-              "RelativeDocumentMoniker": "HIOF.V2025.BookApp.BookStore\\BookStoreManager.cs",
-              "ToolTip": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\BookStoreManager.cs",
-              "RelativeToolTip": "HIOF.V2025.BookApp.BookStore\\BookStoreManager.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAwwFgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Membership.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\Rammeverkdotnet obliger\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\Membership.cs",
+              "RelativeDocumentMoniker": "HIOF.V2025.BookApp.BookStore\\Membership.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\Rammeverkdotnet obliger\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\Membership.cs",
+              "RelativeToolTip": "HIOF.V2025.BookApp.BookStore\\Membership.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T01:10:11.051Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-02-28T13:34:05.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookStoreManager.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\Rammeverkdotnet obliger\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\BookStoreManager.cs",
+              "RelativeDocumentMoniker": "HIOF.V2025.BookApp.BookStore\\BookStoreManager.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\Rammeverkdotnet obliger\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\BookStoreManager.cs",
+              "RelativeToolTip": "HIOF.V2025.BookApp.BookStore\\BookStoreManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T13:27:31.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BookStoreTest.cs",
-              "DocumentMoniker": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore.Tests\\BookStoreTest.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\Rammeverkdotnet obliger\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore.Tests\\BookStoreTest.cs",
               "RelativeDocumentMoniker": "HIOF.V2025.BookApp.BookStore.Tests\\BookStoreTest.cs",
-              "ToolTip": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore.Tests\\BookStoreTest.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\Rammeverkdotnet obliger\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore.Tests\\BookStoreTest.cs",
               "RelativeToolTip": "HIOF.V2025.BookApp.BookStore.Tests\\BookStoreTest.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAWwJoAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAowLUAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T01:38:29.839Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookType.cs",
-              "DocumentMoniker": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\BookType.cs",
-              "RelativeDocumentMoniker": "HIOF.V2025.BookApp.BookStore\\BookType.cs",
-              "ToolTip": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\BookType.cs",
-              "RelativeToolTip": "HIOF.V2025.BookApp.BookStore\\BookType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T17:07:54.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Membership.cs",
-              "DocumentMoniker": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\Membership.cs",
-              "RelativeDocumentMoniker": "HIOF.V2025.BookApp.BookStore\\Membership.cs",
-              "ToolTip": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\Membership.cs",
-              "RelativeToolTip": "HIOF.V2025.BookApp.BookStore\\Membership.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T16:04:51.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IDiscountable.cs",
-              "DocumentMoniker": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\IDiscountable.cs",
-              "RelativeDocumentMoniker": "HIOF.V2025.BookApp.BookStore\\IDiscountable.cs",
-              "ToolTip": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\IDiscountable.cs",
-              "RelativeToolTip": "HIOF.V2025.BookApp.BookStore\\IDiscountable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T15:55:29.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Discount.cs",
-              "DocumentMoniker": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\Discount.cs",
-              "RelativeDocumentMoniker": "HIOF.V2025.BookApp.BookStore\\Discount.cs",
-              "ToolTip": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\Discount.cs",
-              "RelativeToolTip": "HIOF.V2025.BookApp.BookStore\\Discount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T07:49:15.486Z",
+              "WhenOpened": "2025-02-28T13:27:31.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "BookDiscount.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\BookDiscount.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\BookDiscount.cs",
+              "ToolTip": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\BookDiscount.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\BookDiscount.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T07:49:15.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Genre.cs",
-              "DocumentMoniker": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\Genre.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\Rammeverkdotnet obliger\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\Genre.cs",
               "RelativeDocumentMoniker": "HIOF.V2025.BookApp.BookStore\\Genre.cs",
-              "ToolTip": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\Genre.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\Rammeverkdotnet obliger\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\Genre.cs",
               "RelativeToolTip": "HIOF.V2025.BookApp.BookStore\\Genre.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T12:02:20.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T13:27:31.534Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\Customer.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\Rammeverkdotnet obliger\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\Customer.cs",
               "RelativeDocumentMoniker": "HIOF.V2025.BookApp.BookStore\\Customer.cs",
-              "ToolTip": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\Customer.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\Rammeverkdotnet obliger\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\Customer.cs",
               "RelativeToolTip": "HIOF.V2025.BookApp.BookStore\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAuwCQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T20:50:39.392Z",
+              "WhenOpened": "2025-02-28T13:27:31.538Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\Book.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\Rammeverkdotnet obliger\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\Book.cs",
               "RelativeDocumentMoniker": "HIOF.V2025.BookApp.BookStore\\Book.cs",
-              "ToolTip": "C:\\Users\\aleks\\repos\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\Book.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\Rammeverkdotnet obliger\\Rammeverk\\HIOF.V2025.BookApp\\HIOF.V2025.BookApp.BookStore\\Book.cs",
               "RelativeToolTip": "HIOF.V2025.BookApp.BookStore\\Book.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowEAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswB8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T05:31:10.606Z",
+              "WhenOpened": "2025-02-28T13:27:31.543Z",
               "EditorCaption": ""
             }
           ]
